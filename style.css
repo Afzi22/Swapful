@@ -24,7 +24,7 @@
  }
 
  .information {
-      margin: 20px 0 0 0;
+    margin: 0;
     font-size: 22px;
     font-family: 'Almarai';
     font: lighter;
@@ -185,7 +185,7 @@
     align-items: center;
     margin-bottom: 5%;
  }
- 
+
  .signup-container {
     display: flex;
     justify-content: center;
