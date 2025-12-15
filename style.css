@@ -3,11 +3,7 @@
     src: url(Fonts/Almarai-Regular.ttf);
  }
 
-<<<<<<< HEAD
- /* Together */
-=======
   /* Together */
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
  input {
     width: 400px;
     height: 40px;
@@ -28,11 +24,7 @@
  }
 
  .information {
-<<<<<<< HEAD
-    margin: 0;
-=======
-   margin: 0;
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
+      margin: 20px 0 0 0;
     font-size: 22px;
     font-family: 'Almarai';
     font: lighter;
@@ -72,20 +64,14 @@
  }
 
  img {
-<<<<<<< HEAD
     width: 30px;
     height: 30px;
-=======
-   width: 30px;
-   height: 30px;
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
     color: black;
     z-index: 2;
     margin-right: -40px;
     opacity: 45%;
  }
 
-<<<<<<< HEAD
  .eye {
     width: 10px;
     height: 10px;
@@ -141,8 +127,6 @@
     margin-right: -2px;
  }
  
-
-=======
  .eye  {
    width: 10px;
    height: 10px;
@@ -153,7 +137,6 @@
    margin-left: -55px;
  }
 
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
  /* Sign Up Pages*/
  body {
     background: #aeaeae;
@@ -180,11 +163,8 @@
     border-radius: 24px;
     justify-content: end;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 25%);
-<<<<<<< HEAD
     background-image: url(Assets/Backround-Base.png);
     background-size: cover;
-=======
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
  }
 
  .overlay-signup {
@@ -234,11 +214,7 @@
  }
 
  .btnSignup {
-<<<<<<< HEAD
     width: 60%;
-=======
-   width: 60%;
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
     height: 48px;
     margin-top: 21px;
     border-radius: 32px;
@@ -251,7 +227,6 @@
  }
 
  .container-base-signup {
-<<<<<<< HEAD
     width: 40%;
     height: 100%;
     display: flex;
@@ -264,43 +239,20 @@
  /* Login Pages */
 
  .login-page {
-=======
-   width: 40%;
-   height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   column-gap: 27px;
- }
-
- /* Login Pages */
- 
-  .login-page {
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
     width: 70%;
     height: 85vh;
     background: #0077B6;
     border-radius: 32px;
  }
-<<<<<<< HEAD
 
  .base-login {
-=======
- 
-  .base-login {
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
     width: 100%;
     height: 100%;
     background: #0077B6;
     border-radius: 24px;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 25%);
  }
-<<<<<<< HEAD
-
-=======
  
->>>>>>> 733c19e56657a3b64498305c9666393e5e937f1f
  .overlay-login {
     width: 65%;
     height: 100%;
