@@ -73,13 +73,18 @@
  }
 
  .eye {
-    width: 10px;
-    height: 10px;
+    border-style: none;
+     margin-left: -50px;
+     background-color: #F7F5F5;
+ }
+
+ .show {
+   font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-style: none;
-    margin-left: -55px;
+    color: black;
+    opacity: 45%;
  }
 
  .facebook {
@@ -117,14 +122,20 @@
 
  .fb {
     margin-right: -2px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.5rem;
  }
 
  .gm {
     margin-right: -2px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.5rem;
  }
 
  .gt {
-    margin-right: -2px;
+    margin-right: -1px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.6rem;
  }
 
  /* Sign Up Pages*/
@@ -192,7 +203,7 @@
  .inputContainer-signup2 {
     display: flex;
     align-items: center;
-    margin-right: 42px;
+    margin-right: 12px;
  }
 
  .btnSignup {
@@ -284,7 +295,7 @@
  .inputContainer-login2 {
     display: flex;
     align-items: center;
-    margin-right: 42px;
+    margin-right: 12px;
  }
 
  .btnLogin {
@@ -366,12 +377,49 @@
  }
 
  .Icon-Dashboard {
-   width: 40px;
-   height: 40px;
+   font-size: 30px;
    opacity: 100%;
    color: white;
+   margin-left: 20px;
  }
- 
- i {
+
+ .Icon-Dashboard2 {
+   font-size: 30px;
+   opacity: 100%;
+   color: #0077B6;
+   margin-left: 20px;
+ }
+
+ .text-icon {
    color: white;
+   font-family: 'Almarai';
+   font-size: 20px;
+   margin-left: 10px;
+ }
+
+ .text-icon2 {
+   color: #0077B6;
+   font-family: 'Almarai';
+   font-size: 20px;
+   margin-left: 10px;
+ }
+
+ .Control-Icon {
+   width: 80%;
+   height: 60px;
+   background-color: white;
+display: flex;
+justify-content: top;
+align-items: center;
+margin-top: 30px;
+border-radius: 8px;
+ }
+
+ .Control-Icon2 {
+   width: 80%;
+   height: 60px;
+display: flex;
+justify-content: top;
+align-items: center;
+margin-top: 10px;
  }
