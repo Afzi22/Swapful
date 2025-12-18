@@ -3,8 +3,8 @@
     src: url(Fonts/Almarai-Regular.ttf);
  }
 
-  /* Together */
- input {
+ /* Together */
+ .textbox {
     width: 400px;
     height: 40px;
     border-radius: 10px;
@@ -16,7 +16,7 @@
     padding-left: 15%;
  }
 
- p {
+ .S-Judul {
     margin: 3px 0 3px 0;
     font-size: 16px;
     font-family: 'Almarai';
@@ -42,7 +42,7 @@
     font-size: 24px;
     font-family: 'Almarai';
     font-weight: bold;
-    border-style: double;
+    border-style: solid;
     border-color: white;
  }
 
@@ -63,7 +63,7 @@
     margin-bottom: 80px;
  }
 
- img {
+ .Icon-Login {
     width: 30px;
     height: 30px;
     color: black;
@@ -74,12 +74,12 @@
 
  .eye {
     border-style: none;
-     margin-left: -50px;
-     background-color: #F7F5F5;
+    margin-left: -50px;
+    background-color: #F7F5F5;
  }
 
  .show {
-   font-size: 20px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,7 +139,7 @@
  }
 
  /* Sign Up Pages*/
- body {
+ .Signup {
     background: #aeaeae;
     display: flex;
     justify-content: center;
@@ -231,7 +231,7 @@
 
  /* Login Pages */
 
- body {
+ .Login {
     background: #aeaeae;
     display: flex;
     justify-content: center;
@@ -258,7 +258,7 @@
     background-image: url(Assets/Backround-Base.png);
     background-size: cover;
     flex-direction: row-reverse;
-}
+ }
 
  .overlay-login {
     width: 60%;
@@ -322,104 +322,133 @@
  }
 
  /*Dashboard Page*/
- base {
-   background-color: #eaeaea;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   padding: 0;
-   margin: 0;
-   height: 100vh;
+ .Dashboard {
+    background-color: #EAEAEA;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
  }
 
  .Dashboard-Page {
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   align-items: start;
-   justify-content: start;
-   flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
  }
 
  .Group-Dasboard {
-   width: 100%;
-   height: 15%;
-   border-bottom: solid;
+    width: 100%;
+    height: 10%;
+    border-bottom: solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
  }
 
  .Top-Dashboard {
-   width: 72%;
+    width: 72%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
  }
 
  .Overlay-Dashboard {
-   width: 18%;
-   height: 100%;
-   background-color: #0077B6;
-   border-style: solid;
-   border-top: none;
-   border-left: none;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    width: 18%;
+    height: 100%;
+    background-color: #0077B6;
+    border-right: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
  .Base-Dashboard {
-   width: 18%;
-   height: 85%;
-   background-color: #0077B6;
-   border-style: solid;
-   border-top: none;
-   border-left: none;
-   display: flex;
-   align-items: center;
-   justify-content: top;
-   flex-direction: column;
+    width: 18%;
+    height: 90%;
+    background-color: #0077B6;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
  }
 
  .Icon-Dashboard {
-   font-size: 30px;
-   opacity: 100%;
-   color: white;
-   margin-left: 20px;
+    font-size: 20px;
+    opacity: 100%;
+    color: white;
+    margin-left: 20px;
  }
 
  .Icon-Dashboard2 {
-   font-size: 30px;
-   opacity: 100%;
-   color: #0077B6;
-   margin-left: 20px;
+    font-size: 20px;
+    opacity: 100%;
+    color: #0077B6;
+    margin-left: 20px;
  }
 
  .text-icon {
-   color: white;
-   font-family: 'Almarai';
-   font-size: 20px;
-   margin-left: 10px;
+    color: white;
+    font-family: 'Almarai';
+    font-size: 18px;
+    margin-left: 10px;
  }
 
  .text-icon2 {
-   color: #0077B6;
-   font-family: 'Almarai';
-   font-size: 20px;
-   margin-left: 10px;
+    color: #0077B6;
+    font-family: 'Almarai';
+    font-size: 18px;
+    margin-left: 10px;
  }
 
  .Control-Icon {
-   width: 80%;
-   height: 60px;
-   background-color: white;
-display: flex;
-justify-content: top;
-align-items: center;
-margin-top: 30px;
-border-radius: 8px;
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 8px;
  }
 
  .Control-Icon2 {
-   width: 80%;
-   height: 60px;
-display: flex;
-justify-content: top;
-align-items: center;
-margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    margin-top: 15px;
+ }
+
+ .Search {
+   width: 500px;
+   height: 40px;
+   display: flex;
+   justify-content: start;
+   margin-left: 100px;
+   border-radius: 40px;
+   border-style: none;
+   outline-color: #0077B6;
+   outline-style: none;
+   box-shadow: 3px 3px 2px 0 rgba(0, 0, 0, 25%);
+   padding-left: 5%;
+   padding-right: 3%;
+ }
+
+ .Icon-Search {
+   font-size: 20px;
+   margin-right: -140px;
+   margin-left: 100px;
+   display: flex;
+   color: #0077B6;
+   z-index: 2;
  }
