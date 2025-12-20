@@ -1,0 +1,133 @@
+ .textbox {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F7F5F5;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 25%);
+    border-style: none;
+    margin: 10px 0 10px 0;
+    font-size: 1em;
+    padding-left: 15%;
+ }
+
+ .S-Judul {
+    margin: 3px 0 3px 0;
+    font-size: 16px;
+    font-family: 'Almarai';
+    color: #0077B6;
+ }
+
+ .information {
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Almarai';
+    font: lighter;
+    color: #ffffff;
+ }
+
+ .login-signup {
+    width: 220px;
+    height: 48px;
+    margin-top: 80px;
+    border-radius: 22px;
+    border-style: none;
+    background-color: #0077B6;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Almarai';
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+ }
+
+ .judul {
+    font-size: 48px;
+    font-family: 'Almarai';
+    font-weight: bold;
+    color: #0077B6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+ }
+
+ .sub-judul {
+    font-size: 42px;
+    font-family: 'Almarai';
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+    margin-bottom: 80px;
+ }
+
+ .Icon-Login {
+    width: 30px;
+    height: 30px;
+    color: black;
+    z-index: 2;
+    margin-right: -40px;
+    opacity: 45%;
+ }
+
+ .eye {
+    border-style: none;
+    margin-left: -50px;
+    background-color: #F7F5F5;
+ }
+
+ .show {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    opacity: 45%;
+ }
+
+ .facebook {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #B9B9B9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+
+ .gmail {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #B9B9B9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+
+ .github {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #B9B9B9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+
+ .fb {
+    margin-right: -2px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.5rem;
+ }
+
+ .gm {
+    margin-right: -2px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.5rem;
+ }
+
+ .gt {
+    margin-right: -1px;
+    color: rgba(0, 0, 0, 25%);
+    font-size: 1.6rem;
+ }

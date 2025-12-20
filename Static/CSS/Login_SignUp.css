@@ -1,0 +1,187 @@
+ @font-face {
+    font-family: 'Almarai';
+    src: url(Fonts/Almarai-Regular.ttf);
+ }
+
+ /* Sign Up Pages*/
+ .Signup {
+    background: #aeaeae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+ .signup-page {
+    width: 70%;
+    height: 85vh;
+    background: #0077B6;
+    border-radius: 32px;
+ }
+
+ .base-signup {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #0077B6;
+    border-radius: 24px;
+    justify-content: end;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 25%);
+    background-image: url(Assets/Backround-Base.png);
+    background-size: cover;
+ }
+
+ .overlay-signup {
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 0 24px 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .input-signup {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+ }
+
+ .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 27px;
+    margin-bottom: 6%;
+ }
+
+ .inputContainer-signup {
+    display: flex;
+    align-items: center;
+ }
+
+ .inputContainer-signup2 {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+ }
+
+ .btnSignup {
+    width: 60%;
+    height: 48px;
+    margin-top: 21px;
+    border-radius: 32px;
+    border-style: none;
+    background-color: #0077B6;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Almarai';
+    font-weight: bold;
+ }
+
+ .container-base-signup {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 27px;
+ }
+
+ /* Login Pages */
+
+ .Login {
+    background: #aeaeae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+ .login-page {
+    width: 70%;
+    height: 85vh;
+    background: #0077B6;
+    border-radius: 32px;
+ }
+
+ .base-login {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #0077B6;
+    border-radius: 24px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 25%);
+    background-image: url(Assets/Backround-Base.png);
+    background-size: cover;
+    flex-direction: row-reverse;
+ }
+
+ .overlay-login {
+    width: 60%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 24px 0 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .input-login {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+ }
+
+ .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 27px;
+    margin-bottom: 6%;
+ }
+
+ .inputContainer-login {
+    display: flex;
+    align-items: center;
+ }
+
+ .inputContainer-login2 {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+ }
+
+ .btnLogin {
+    width: 60%;
+    height: 48px;
+    margin-top: 21px;
+    border-radius: 32px;
+    border-style: none;
+    background-color: #0077B6;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Almarai';
+    font-weight: bold;
+ }
+
+ .container-base-login {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 27px;
+ }
