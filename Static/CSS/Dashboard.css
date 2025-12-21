@@ -234,6 +234,26 @@
     column-gap: 5%;
  }
 
+ .Top-Store {
+   width: 100%;
+   height: 85px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: row;
+
+ }
+
+ .Center-Store {
+   width: 100%;
+   height: 85px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: row;
+   column-gap: 20%;
+ }
+
  .Control-Icon2 {
     width: 80%;
     height: 40px;
