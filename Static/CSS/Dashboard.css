@@ -173,6 +173,22 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    column-gap: 58vh;
+ }
+
+  .Top-Dashboard-1 {
+   width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .Top-Dashboard-2 {
+   width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2%;
  }
 
  .Overlay-Dashboard {
@@ -241,7 +257,62 @@
    justify-content: start;
    align-items: center;
    flex-direction: row;
+   column-gap: 114vh;
+ }
 
+ .Top-Store-2 {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   column-gap: 5%;
+ }
+
+ .View {
+   font-family: 'Almarai';
+   font-size: 1.2rem;
+   border-style: none;
+   font-weight: 600;
+   color: #0077B6;
+ }
+
+ .Link-Filter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 3px;
+ }
+
+ .Lingkaran-Filter {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   width: 30px;
+   height: 30px;
+   background-color: #0077B6;
+   border-radius: 100%;
+   column-gap: 100%;
+ }
+
+ .Icon-Filter {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 10%;
+   color: #0077B6;
+   width: 100px;
+   height: 30px;
+   border-radius: 8px;
+   border-style: solid;
+ }
+
+ .Icon-Filters {
+   font-size: 15px;
+ }
+
+ .Filter-Text {
+   font-size: 18px;
  }
 
  .Center-Store {
@@ -251,7 +322,7 @@
    justify-content: start;
    align-items: center;
    flex-direction: row;
-   column-gap: 20%;
+   column-gap: 111vh;
  }
 
  .Control-Icon2 {
@@ -275,7 +346,7 @@
     outline-color: #0077B6;
     outline-style: none;
     box-shadow: 3px 3px 2px 0 rgba(0, 0, 0, 25%);
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 3%;
  }
 
@@ -286,4 +357,28 @@
     display: flex;
     color: #0077B6;
     z-index: 2;
+ }
+
+ .Profil {
+   width: 50px;
+   height: 50px;
+   background-color: white;
+   border-radius: 100%;
+ }
+
+ .Pembatas {
+   width: 3px;
+   height: 30px;
+   background-color: #0077B6;
+   border-radius: 10PX;
+ }
+
+ .Icon-Top {
+   font-size: 25px;
+   color: #0077B6;
+ }
+
+ .Icon-Top-2 {
+   font-size: 20px;
+   color: #0077B6;
  }
