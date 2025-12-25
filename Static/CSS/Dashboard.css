@@ -132,19 +132,21 @@
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 25%);
     border-radius: 10%;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
  }
 
  .Discount-Desain {
+   position: relative;
     width: 18.5%;
     height: 100%;
     background-color: white;
     box-shadow: 0 0 20px 2px rgba(0, 0, 0, 25%);
     border-radius: 10%;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
  }
 
  .Categories-Desain {
@@ -154,8 +156,59 @@
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 25%);
     border-radius: 10%;
     display: flex;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .Categories-Text {
+   font-family: 'Almarai';
+   font-weight: bold;
+   font-size: 13px;
+   margin: 0;
+ }
+
+ .img-2 {
+   width: 60px;
+ }
+
+ .Img-Popular {
+   width: 90%;
+   display: flex;
+ }
+
+ .Deskripsi {
+   font-size: 10px;
+   width: 80%;
+   font-family: 'Almarai';
+   letter-spacing: 0.3px;
+   line-height: 130%;
+   font-weight: 550;
+ }
+
+ .Img-Popular-1 {
+   width: 65%;
+   display: flex;
+ }
+
+ .Backround-Popular {
+   width: 90%;
+   height: 60%;
+   background-color: #D7D7D7;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: Center;
+ }
+
+ .Backround-Popular-1 {
+   width: 90%;
+   height: 60%;
+   background-color: #D7D7D7;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: end;
  }
 
  .Group-Dasboard {
@@ -275,6 +328,7 @@
    border-style: none;
    font-weight: 600;
    color: #0077B6;
+   background-color: none;
  }
 
  .Link-Filter {
@@ -324,6 +378,26 @@
    align-items: center;
    flex-direction: row;
    column-gap: 110vh;
+ }
+
+ .img-1 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 1;
+   border-radius: 10px;
+   display: flex;
+ }
+
+ .Display-1 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #0077B6;
+   opacity: 70%;
+   border-radius: 10px;
+   z-index: 2;
+   display: flex;
  }
 
  .Control-Icon2 {
