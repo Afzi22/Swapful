@@ -41,12 +41,12 @@
  }
 
  .Judul {
-   color: white;
-   font-size: 180%;
+    color: white;
+    font-size: 180%;
  }
 
  .Judul2 {
-   color: white;
+    color: white;
  }
 
  .Top-Dashboard {
@@ -93,8 +93,8 @@
  }
 
  .Search::placeholder {
-   color: #0077B6;
-   font-weight: 600;
+    color: #0077B6;
+    font-weight: 600;
  }
 
  .Top-Dashboard-2 {
@@ -369,7 +369,6 @@
     column-gap: 56ch;
  }
 
-
  .Layout-3-Store {
     width: 55%;
     height: 100%;
@@ -423,13 +422,35 @@
  }
 
  .Price {
-   font-family: 'Almarai';
-   font-size: 16px;
-   margin-top: -5px;
-   margin-bottom: 5px;
-   font-weight: 550;
-   width: 80%;
-   display: flex;
+    font-family: 'Almarai';
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: 0;
+    font-weight: 550;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+ }
+
+ .Price-1 {
+    width: 82%;
+ }
+
+ .Lingkaran-Price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 23px;
+    height: 23px;
+    background-color: #0077B6;
+    border-radius: 100%;
+    column-gap: 100%;
+ }
+
+ .Icon-Plus {
+    font-size: 15px;
  }
 
  .Discount-Desain {
@@ -444,6 +465,50 @@
     align-items: center;
  }
 
+ .Display-2 {
+    position: absolute;
+    width: 72%;
+    height: 100%;
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    padding-top: 16%;
+    justify-content: Start;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .Discount-Text {
+    font-size: 15px;
+    font-family: 'Almarai';
+    font-weight: 550;
+    color: white;
+    font-style: normal;
+    opacity: 75%;
+ }
+
+ .Discount-Text-1 {
+    font-size: 12px;
+    font-family: 'Almarai';
+    color: white;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 15px;
+    opacity: 75%;
+ }
+
+ .Shop {
+    width: 70%;
+    height: 15%;
+    font-size: 9px;
+    font-weight: 550;
+    color: #0077B6;
+    border-style: none;
+    border-radius: 7px;
+    margin-top: 13px;
+    opacity: 75%;
+ }
+
  .Img-Popular {
     width: 90%;
     display: flex;
@@ -453,7 +518,6 @@
     font-size: 10px;
     width: 80%;
     font-family: 'Almarai';
-    letter-spacing: 0.5px;
     line-height: 130%;
     font-weight: 550;
  }
@@ -501,15 +565,19 @@
     border-radius: 10px;
     z-index: 2;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
  }
 
+
  .Pembatas-2 {
-   height: 100%;
-   width: 1.2%;
-   background-color: #0077B6;
+    height: 100%;
+    width: 1.2%;
+    background-color: #0077B6;
  }
 
  .Last-Order {
-   width: 25%;
-   height: 100%;
+    width: 25%;
+    height: 100%;
  }
