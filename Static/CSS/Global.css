@@ -1,5 +1,5 @@
  .textbox {
-    width: 400px;
+    width: 60vh;
     height: 40px;
     border-radius: 10px;
     background-color: #F7F5F5;
@@ -19,7 +19,7 @@
 
  .information {
     margin: 0;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-family: 'Almarai';
     font: lighter;
     color: #ffffff;
@@ -49,7 +49,7 @@
  }
 
  .sub-judul {
-    font-size: 42px;
+    font-size: 2.6rem;
     font-family: 'Almarai';
     font-weight: bold;
     color: #ffffff;
